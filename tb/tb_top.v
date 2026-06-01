@@ -2,9 +2,8 @@
 
 module tb_top;
 
-// ==========================
 // CLOCK SIGNAL
-// ==========================
+
 reg clk = 0;
 
 always #10 clk = ~clk;  // 50 MHz clock
